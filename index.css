@@ -4,7 +4,7 @@
     bottom: 5px;
     right: 5px;
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
     width:150px;
     display: flex;
     flex-wrap: wrap;
@@ -41,13 +41,22 @@ a:hover{
 }
 body{
     background-color: lightgray;
-    border: 2px solid black;
+    border: 1.4px solid black;
     height: 95vh;
     margin: 20px;
     font-family: 'Cormorant Unicase', serif;
     /* font-family: 'Sono', sans-serif; */
+    
+    /* box-sizing: border-box; */
     background-image: url("https://media.istockphoto.com/id/1349193574/vector/hand-painted-abstract-watercolor-as-background.jpg?s=612x612&w=0&k=20&c=hn42zlgn39CRDSpES0EIOlgWPeaWizBGGcw1VISyyUA=");
     background-size: cover;
-    /* box-sizing: border-box; */
+}
+img{
+    position: absolute;
+    bottom: 5px;
+    /* right: 5px; */
+    left: 5px;
+    padding: 10px;
+    margin: 20px;
 }
 

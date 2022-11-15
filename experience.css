@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Sono:wght@300&display=swap');
 nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    ;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+li{
+    padding: 2%;
+}
+header{
+    padding:2%;
+    padding-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(85, 79, 79);
+}
+body{
+    background-color: lightgray;
+    border: 1.4px solid black;
+    height: 95vh;
+    margin: 20px;
+    font-family: 'Cormorant Unicase', serif;
+    /* font-family: 'Sono', sans-serif; */
+    
+    /* box-sizing: border-box; */
+    background-image: url("https://media.istockphoto.com/id/1349193574/vector/hand-painted-abstract-watercolor-as-background.jpg?s=612x612&w=0&k=20&c=hn42zlgn39CRDSpES0EIOlgWPeaWizBGGcw1VISyyUA=");
+    background-size: cover;
+}
+#workExp{
+    position: sticky;
+    top: 250px;
+    left: 400px;
+    
+    padding: 10px;
+    margin: 20px;
+    width:600px;
 }
