@@ -54,11 +54,11 @@ body{
     background-image: url("https://media.istockphoto.com/id/1349193574/vector/hand-painted-abstract-watercolor-as-background.jpg?s=612x612&w=0&k=20&c=hn42zlgn39CRDSpES0EIOlgWPeaWizBGGcw1VISyyUA=");
     background-size: cover;
 }
-#bioText{
+#myText{
     
     position: absolute;
-    top: 350px;
-    left: 600px;
+    bottom: 0px;
+    right: 0px;
     
     padding: 10px;
     margin: 20px;
@@ -67,11 +67,11 @@ body{
 
     
 }
-#about{
+/* #about{
     position: absolute;
     top: 300px;
     left: 600px;
     padding: 10px;
     margin: 20px;
 
-}
+} */
