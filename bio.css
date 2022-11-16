@@ -61,3 +61,25 @@ img{
     border-radius: 160px;
     opacity: 0.35;
 }
+@media screen and (max-width:767px) {
+    body{
+        height: unset;
+    }
+    #myText{
+        position: unset;
+        width:auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    img{
+        position: unset;
+
+    }
+    nav{
+        margin-left: 20px;
+    }
+    header{
+        margin-left: 20px;
+    }
+
+}

@@ -59,7 +59,7 @@ img{
 @media screen and (max-width:767px) {
     #expBox{
         position: unset;
-        width: 500px;
+        width: auto;
         margin-top: 0;
         padding-top: 0;
     }
