@@ -1,18 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Sono:wght@300&display=swap');
-/* h3{
-    margin: 10px;
-    padding: 10px;
-    position: absolute;
-    left: 0;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-}
-h1{
-    margin: 100px;
-} */
-body{
-    height: 95vh;
-    border: 2px solid black;
-}
+
 nav{
     display: flex;
     flex-direction: column;
@@ -31,10 +19,7 @@ header{
     padding:2%;
     padding-bottom: 0;
 }
-/* h4{
-    padding-left: 2%;
-    padding-top: 0;
-} */
+
 a{
     text-decoration: none;
     color: black;
@@ -47,7 +32,7 @@ body{
     border: 1.4px solid black;
     height: 95vh;
     margin: 20px;
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Ubuntu', sans-serif;
     /* font-family: 'Sono', sans-serif; */
     
     /* box-sizing: border-box; */
@@ -62,16 +47,17 @@ body{
     
     padding: 10px;
     margin: 20px;
-    width:400px;
+    width:300px;
     
 
     
 }
-/* #about{
+img{
     position: absolute;
-    top: 300px;
-    left: 600px;
+    bottom: 5px;
+    left: 5px;
     padding: 10px;
     margin: 20px;
-
-} */
+    border-radius: 160px;
+    opacity: 0.35;
+}

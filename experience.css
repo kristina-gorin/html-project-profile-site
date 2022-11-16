@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@media screen and (max-width:767px) {
+    expBox{
+        position: unset;
+        width: 40px;
+    }
+}
 nav{
     display: flex;
     flex-direction: column;
@@ -30,19 +36,28 @@ body{
     border: 1.4px solid black;
     height: 95vh;
     margin: 20px;
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Ubuntu', sans-serif;
     /* font-family: 'Sono', sans-serif; */
     
     /* box-sizing: border-box; */
     background-image: url("https://media.istockphoto.com/id/1349193574/vector/hand-painted-abstract-watercolor-as-background.jpg?s=612x612&w=0&k=20&c=hn42zlgn39CRDSpES0EIOlgWPeaWizBGGcw1VISyyUA=");
     background-size: cover;
 }
-#workExp{
-    position: sticky;
-    top: 250px;
-    left: 400px;
+#expBox{
+    position: absolute;
+    bottom: 0;
+    right: 0;
     
     padding: 10px;
     margin: 20px;
-    width:600px;
+    width:400px;
+}
+img{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 160px;
+    opacity: 0.35;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 nav{
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ body{
     border: 1.4px solid black;
     height: 95vh;
     margin: 20px;
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Ubuntu', sans-serif;
     /* font-family: 'Sono', sans-serif; */
     
     /* box-sizing: border-box; */
@@ -47,4 +47,20 @@ img{
     left: 5px;
     padding: 10px;
     margin: 20px;
+}
+#portfolioText{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+img{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 160px;
+    opacity: 0.35;
 }
