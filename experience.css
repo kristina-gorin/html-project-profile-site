@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-@media screen and (max-width:767px) {
-    expBox{
-        position: unset;
-        width: 40px;
-    }
-}
+
 nav{
     display: flex;
     flex-direction: column;
@@ -60,4 +55,26 @@ img{
     margin: 20px;
     border-radius: 160px;
     opacity: 0.35;
+}
+@media screen and (max-width:767px) {
+    #expBox{
+        position: unset;
+        width: 500px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    body{
+        height: unset;
+    }
+    img{
+        position: unset;
+
+    }
+    nav{
+        margin-left: 20px;
+    }
+    header{
+        margin-left: 20px;
+    }
+    
 }
